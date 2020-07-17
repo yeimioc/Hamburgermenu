@@ -2,10 +2,10 @@
     --primary-color: rgba(13, 110, 139, 0.75);
     --secondary-color: rgba(229, 148, 0, 0.9);
     --overlay-color: rgba(24, 39, 51, 0.85);
-    --menu-speed: o.75s;
+    --menu-speed: 0.75s;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
 
 #showcase:before {
     content: '';
-    background: url('../image/beach.jpg') no-repeat center center/cover;
+    background: url('../image/restaurant1.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,7 +61,7 @@ body {
 .btn {
     display: inline-block;
     border: none;
-    background: black;
+    background: var(--secondary-color);
     color: #fff;
     padding: 0.75rem 1.5rem;
     transition: all 1s ease-in-out;

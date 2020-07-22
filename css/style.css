@@ -1,7 +1,8 @@
+
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --secondary-color: rgba(229, 148, 0, 0.9);
-    --overlay-color: rgba(24, 39, 51, 0.85);
+    --primary-color: rgb(13, 110, 139, 0.75);
+    --secondary-color: rgb(229, 148, 0, 0.9);
+    --overlay-color: rgb(24, 39, 51, 0.85);
     --menu-speed: 0.75s;
 }
 
@@ -32,7 +33,7 @@ body {
 
 #showcase:before {
     content: '';
-    background: url('../image/restaurant1.jpg') no-repeat center center/cover;
+    background: url('../image/beach.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,9 +62,10 @@ body {
 .btn {
     display: inline-block;
     border: none;
-    background: var(--secondary-color);
-    color: #fff;
+    background: var(--primary-color);
+    color:#fff;
     padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
     transition: all 1s ease-in-out;
     text-decoration: none;
 }
@@ -71,4 +73,5 @@ body {
 .btn:hover {
     opacity: 0.7;
 }
+
 
